@@ -8,3 +8,4 @@ Link do curso [Python Pro](https://www.python.pro.br/)
 
 
 
+Instalação e ocnfig do pyenv.
