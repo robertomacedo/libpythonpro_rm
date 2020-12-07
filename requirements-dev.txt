@@ -3,6 +3,14 @@ mccabe==0.6.1
 #pkg-resources==0.0.0
 pycodestyle==2.6.0
 pyflakes==2.2.0
+
+py==1.8.2
+attrs==17.4.0
+six==1.11.0
+more-itertolls==4.1.0
+pluggy==0.12
+pytest==3.5.1
+
 -r requirements.txt
 
 
