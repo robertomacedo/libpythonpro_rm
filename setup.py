@@ -97,7 +97,7 @@ def find_package_data(
 PACKAGE = "libpythonpro_rm"
 NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
-AUTHOR = "Renzo Nuccitelli"
+AUTHOR = "Roberto Macedo"
 AUTHOR_EMAIL = "macedorss20@gmail.com"
 URL = "https://github.com/robertomacedo/libpythonpro_rm"
 VERSION = __import__(PACKAGE).__version__
