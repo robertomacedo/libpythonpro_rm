@@ -1,16 +1,6 @@
-import pytest
-
 from libpythonpro_rm.spam.modelos import Usuario
 from spam.db import Conexao
 
-@pytest.fixture
-def conexao():
-    return Conexao()
-
-@pytest.fixture
-def sessao(conexao):
-    sessao_obj = conexao.gerar_sessao()
-    return sessao_obj
 
 def test_salvar_usuario(conexao, sessao):
     usuario = Usuario(nome ='Renzo')
