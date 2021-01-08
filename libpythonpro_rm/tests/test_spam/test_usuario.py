@@ -2,6 +2,7 @@ from libpythonpro_rm.spam.modelos import Usuario
 from spam.db import Conexao
 
 
+
 def test_salvar_usuario(conexao, sessao):
     usuario = Usuario(nome ='Renzo', email='renzo@python.pro.br')
     sessao.salvar(usuario)
